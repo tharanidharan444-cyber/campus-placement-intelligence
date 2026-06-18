@@ -1,0 +1,11 @@
+student_id,department,company,package_lpa,skills,year
+1001,CSE,TCS,4.5,Python SQL,2025
+1002,CSE,Infosys,5.0,Java SQL,2025
+1003,IT,Wipro,4.2,Python PowerBI,2025
+1004,AIML,Accenture,6.5,Python AWS,2025
+1005,CSE,Cognizant,5.8,Python SQL PowerBI,2025
+1006,IT,HCL,4.0,SQL Excel,2025
+1007,AIML,Capgemini,5.6,Python ML,2025
+1008,CSE,TCS,4.7,Python SQL,2025
+1009,IT,Infosys,5.2,PowerBI SQL,2025
+1010,AIML,Accenture,6.8,Python AWS,2025
