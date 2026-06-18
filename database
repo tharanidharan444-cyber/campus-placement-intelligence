@@ -1,0 +1,8 @@
+CREATE TABLE placements (
+    student_id INTEGER,
+    department TEXT,
+    company TEXT,
+    package_lpa REAL,
+    skills TEXT,
+    year INTEGER
+);
