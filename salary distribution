@@ -1,0 +1,15 @@
+plt.figure(figsize=(8,5))
+
+df['package_lpa'].hist(
+bins=5
+)
+
+plt.title(
+"Package Distribution"
+)
+
+plt.savefig(
+"output/package_distribution.png"
+)
+
+plt.show()
