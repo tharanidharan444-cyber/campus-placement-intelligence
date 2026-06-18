@@ -1,0 +1,19 @@
+import pandas as pd
+import sqlite3
+
+df = pd.read_csv("output/cleaned_data.csv")
+
+conn = sqlite3.connect("placement.db")
+
+df.to_sql(
+    "placements",
+    conn,
+    if_exists="replace",
+    index=False
+)
+
+print("Data Loaded Successfully")
+
+ouput
+
+Data Loaded Successfully
