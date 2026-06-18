@@ -1,0 +1,13 @@
+SELECT AVG(package_lpa)
+FROM placements;
+
+SELECT department,
+COUNT(*)
+FROM placements
+GROUP BY department;
+
+SELECT company,
+COUNT(*)
+FROM placements
+GROUP BY company
+ORDER BY COUNT(*) DESC;
