@@ -1,0 +1,32 @@
+from reportlab.platypus import (
+SimpleDocTemplate,
+Paragraph
+)
+
+from reportlab.lib.styles import getSampleStyleSheet
+
+pdf = SimpleDocTemplate(
+"output/Placement_Report.pdf"
+)
+
+styles = getSampleStyleSheet()
+
+content = []
+
+content.append(
+Paragraph(
+"Campus Placement Intelligence Report",
+styles['Title']
+)
+)
+
+content.append(
+Paragraph(
+"Total Students: 10",
+styles['BodyText']
+)
+)
+
+pdf.build(content)
+
+print("PDF Created")
