@@ -1,0 +1,16 @@
+import pandas as pd
+
+df = pd.read_csv("data/placement_data.csv")
+
+print("Dataset Loaded Successfully")
+print(df.head())
+
+python src/extract.py
+
+output
+
+Dataset Loaded Successfully
+
+student_id department company
+1001 CSE TCS
+1002 CSE Infosys
